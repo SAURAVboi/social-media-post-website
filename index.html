@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Social Media</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Notifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="postSection">
+            <h2>Create a Post</h2>
+            <form id="postForm">
+                <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+                <input type="file" id="postImage" accept="image/*">
+                <input type="file" id="postAudio" accept="audio/*">
+                <button type="submit">Post</button>
+            </form>
+        </section>
+
+        <section id="feedSection">
+            <h2>Feed</h2>
+            <div id="feed">
+                <!-- Posts will be appended here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

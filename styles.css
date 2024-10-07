@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  background-color: rgba(0, 123, 255, 0.8);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  transform: scale(1.2);
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#postSection, #feedSection {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.5);
+}
+
+.post {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5);
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.post audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.like-button, .comment-button {
+  cursor: pointer;
+  color: #007bff;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.like-button:hover, .comment-button:hover {
+  transform: scale(1.1);
+}
+
+.comments-section {
+  margin-top: 10px;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
